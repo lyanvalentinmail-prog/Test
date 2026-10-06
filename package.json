@@ -1,0 +1,21 @@
+{
+  "name": "ai-whatsapp-bot-baileys",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp con Baileys, QR y código de vinculación.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.7",
+    "openai": "^4.77.0",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
